@@ -8,5 +8,19 @@
 //= require jquery_ujs
 //= require accounting.min
 //= require spree/frontend
-
 //= require_tree .
+//= require rails-ujs
+//= require turbolinks
+//= require cable
+//= require_tree .
+//= require jquery.min
+//= require bootstrap.min
+//= require slick.min
+//= require nouislider.min
+//= require jquery.zoom.min
+//= require main
+//= require jquery.slick
+
+
+
+

@@ -7,4 +7,12 @@
 
  *= require_self
  *= require_tree .
+ *= require bootstrap.min
+ *= require font-awesome.min
+ *= require slick
+ *= require slick-theme
+ *= require nouislider.min
+ *= require style
+ *= require slick
 */
+
