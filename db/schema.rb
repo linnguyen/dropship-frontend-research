@@ -84,6 +84,7 @@ ActiveRecord::Schema.define(version: 20181204035828) do
     t.text "alt"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string "static_url"
     t.index ["position"], name: "index_spree_assets_on_position"
     t.index ["viewable_id"], name: "index_assets_on_viewable_id"
     t.index ["viewable_type", "type"], name: "index_assets_on_viewable_type_and_type"

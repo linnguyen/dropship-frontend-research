@@ -37,6 +37,8 @@ gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'spree_simple_sale', path: '../dropship/spree_simple_sale'
 
+gem 'byebug'
+
 # gem 'bootstrap-sass', '3.3.7'
 # gem 'jquery-ui-rails'
 # gem "font-awesome-rails"
