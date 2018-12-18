@@ -7,9 +7,7 @@
         <div id="product-images" data-hook="product_images">
           <div id="main-image" class="panel panel-default" data-hook>
             <div class="panel-body text-center">
-             
-
-              <%= image_tag @product.images.static_url %>
+               <%= image_tag(@product.images[0].static_url, :size => "240x240") %>
             </div>
           </div>
           <div id="thumbnails" data-hook>

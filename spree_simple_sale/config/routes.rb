@@ -7,9 +7,7 @@ Spree::Core::Engine.add_routes do
   # For api test
   namespace :api, defaults: { format: 'json' } do
     namespace :v1 do
-    	resources :products do
-          post "/yap" => "images#yap"
-        end
+        post "/image_url" => "images#upload_image_using_static_url"
     end
   end
 end
