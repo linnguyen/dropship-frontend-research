@@ -5,7 +5,6 @@ module Spree
       
        def upload_image_using_static_url
           product = Spree::Product.find_by(id: params[:id])
-          byebug
           params[:static_urls].each do |static_url|
               product.images.create!(static_url: static_url, attachment_file_name:"static_url")
           end
@@ -14,9 +13,3 @@ module Spree
     end
   end
 end
-
- # Spree::Asset.create(
- #              viewable_type: "Spree::Variant", 
- #              viewable_id: params[:id],
- #              static_url: static_url
- #              )
